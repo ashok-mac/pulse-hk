@@ -1,0 +1,18 @@
+{
+  "jsonrpc": "2.0",
+  "id": "req-001",
+  "method": "message/send",
+  "params": {
+    "message": {
+      "kind": "message",
+      "role": "user",
+      "messageId": "msg-user-001",
+      "parts": [
+        {
+          "kind": "text",
+          "text": "Generate an image of a sailboat on the ocean."
+        }
+      ]
+    }
+  }
+}

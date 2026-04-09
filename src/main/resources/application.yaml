@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: pulse-hk
+  ai:
+    a2a:
+      server:
+        enabled: true
+langchain4j:
+  community:
+    dashscope:
+      chat-model:
+        api-key: <>
+        base-url: <>
+        model-name: qwen-max
+server:
+  servlet:
+    context-path: /offer
+  port: 8081
+a2a:
+  blocking:
+    agent:
+      timeout:
+        seconds: 30
+
+
