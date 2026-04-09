@@ -6,6 +6,8 @@ AI Enabled HK LifeStyle Campanion Agent
 - Replace Alibaba Dashscope API_KEY and URL 
 - Prefer Qwen3.5-Plus and Qwen3 Models
 
+Refer A2AInspector.md and A2AUI.md
+
 ```bash
 mvn clean install
 mvn spring-boot:run

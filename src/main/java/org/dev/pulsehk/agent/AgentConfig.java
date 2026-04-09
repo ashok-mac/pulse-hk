@@ -22,7 +22,7 @@ public class AgentConfig {
                                @Value("${server.servlet.context-path:/}") String contextPath) {
 
         return new AgentCard.Builder()
-                .name("BrandOffer Agent")
+                .name("HK Pulse LifeStyle Agent")
                 .description("Provides Offer Details information for BrandNames")
                 .url("http://127.0.0.1:" + port + contextPath + "/")
                 .version("1.0.0")
