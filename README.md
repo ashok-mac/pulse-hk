@@ -1,5 +1,5 @@
-# pulse-hk
-AI Enabled HK LifeStle Campanion
+# Pulse-HK
+AI Enabled HK LifeStyle Campanion Agent
 
 ## Setup 
 
