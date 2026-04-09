@@ -4,11 +4,19 @@ AI Enabled HK LifeStyle Campanion Agent
 ## Setup 
 
 - Replace Alibaba Dashscope API_KEY and URL 
-- Prefer Qwen3.5-Plus and Qwen3
+- Prefer Qwen3.5-Plus and Qwen3 Models
+
+```bash
+mvn clean install
+mvn spring-boot:run
+
+```
 
 ## Features 
 
 - For a BrandName , Finds the Offer Available across HK with Product details (Sourced from : HK Online Price Watcher https://online-price-watch.consumer.org.hk/opw/opendata/pricewatch.json) 
+
+
 
 ## Test 
 
